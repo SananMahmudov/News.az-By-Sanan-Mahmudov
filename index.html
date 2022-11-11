@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="data:image/png;base64,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"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>News.az - Latest news from Azerbaijan</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <section class="navbarr">
+            <div class="d-flex navbar container justify-content-between">
+                <div class="d-flex mt-3 align-items-center">
+                    <p class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                        </svg> Baku</p>
+                    <p class="mx-3 text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-cloud-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
+                        </svg> 11°C/15°C Temperatur 0 C</p>
+                    <p class="mx-3 text-white"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                            <path
+                                d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                            <path
+                                d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg> Friday, (11 Nov 2022)</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <a href="/#" class="text-decoration-none mx-3 text-white">About</a>
+                    <a href="/#" class="text-decoration-none mx-3 text-white">Contact</a>
+                    <a href="/#" class="text-decoration-none mx-3 text-white">Professional Conduct</a>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="">
+        <div class="d-flex container justify-content-between">
+            <div class="d-flex mt-4">
+                <img src="./images/logo.png" alt="">
+            </div>
+
+
+            <div class="d-flex p-4 justify-content-between mt-4" style="width: 400px; background-color: #f8f8f8;">
+
+
+                <div>
+                    <div class="circle circle1 d-flex justify-content-center">
+                        <p class="circle1text text-primary">$</p>
+                    </div>
+                    <p class="d-flex fw-bold justify-content-center mt-3">1.700</p>
+                </div>
+
+                <div>
+                    <div class="circle circle1 d-flex justify-content-center">
+                        <p class="circle1text text-primary">€</p>
+
+                    </div>
+                    <p class="d-flex fw-bold justify-content-center mt-3">1.7329</p>
+                </div>
+
+                <div>
+                    <div class="circle circle1 d-flex justify-content-center">
+                        <p class="circle1text text-primary">&#8381</p>
+                    </div>
+                    <p class="d-flex fw-bold justify-content-center mt-3"> 0.028</p>
+                </div>
+
+                <div>
+                    <div class="circle circle1 d-flex justify-content-center">
+                        <p class="circle1text text-primary">₺</p>
+                    </div>
+                    <p class="d-flex fw-bold justify-content-center mt-3"> 0.0918</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="navbarr2">
+        <div class="d-flex navbar container justify-content-between mt-3">
+            <div class="d-flex justify-content-between">
+                <a href="/#" class="mx-4 text-decoration-none text-black mt-2">
+                    <h5>Politics</h5>
+                </a>
+                <a href="/#" class="mx-4 text-decoration-none text-black mt-2">
+                    <h5>Azerbaijan</h5>
+                </a>
+                <a href="/#" class="mx-4 text-decoration-none text-black mt-2">
+                    <h5>Region</h5>
+                </a>
+                <a href="/#" class="mx-4 text-decoration-none text-black mt-2">
+                    <h5>Sports</h5>
+                </a>
+                <a href="/#" class="mx-4 text-decoration-none text-black mt-2">
+                    <h5>World</h5>
+                </a>
+                <a href="/#" class="mx-4 text-decoration-none text-black mt-2">
+                    <h5>Analytics</h5>
+                </a>
+                <a href="/#" class="mx-4 text-decoration-none text-black mt-2">
+                    <h5>Economics</h5>
+                </a>
+            </div>
+            <form action="https://www.google.com/">
+                <input type="text">
+                <button type="submit">search</button>
+            </form>
+        </div>
+    </section>
+    <div class="tittle1 d-flex align-items-center mt-4">
+        <h3 class="mx-3 text-white justify-content-between">Breaking News</h3>
+
+    </div>
+    <div class="tittle2 d-flex align-items-center mt-4">
+        <h4 class="mx-3 justify-content-between  mt-3">President Ilham Aliyev attends 9th Summit of Organization of
+            Turkic States</h4>
+    </div>
+
+    <div class="xeber elementleri container ">
+        <div class="row w-100">
+            <div class="col-6">
+                <div class="img1 news panel mt-5">
+                    <img src="./images/1.jpeg"
+                        alt="" width="100%">
+
+                    <a href="/#" class="text-decoration-none text-danger">
+                        <h5>Statements adopted in Prague and Sochi once again demonstrate Karabakh conflict was left in
+                            past
+                            –
+                            Azerbaijani President </h5>
+                    </a href="/#">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row mt-5">
+
+                    <div class="col-6">
+                        <div class="item mb-3">
+                            <div class="item-image position-relative">
+                                <img width="300" src='./images/4.png' />
+                            </div>
+                            <div class="item-text">
+                                <a href="/#" class="text-decoration-none text-danger">
+                                    <h5>Azerbaijan summons Iranian ambassador</h5>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="item mb-3">
+                            <div class="item-image position-relative">
+                                <img width="300" src='./images/3.jpeg' />
+                            </div>
+                            <div class="item-text">
+                                <a href="/#" class="text-decoration-none text-danger">
+                                    <h5>Azerbaijan exports 9.3 bcm of gas to Europe in January-October 2022</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="item">
+                            <div class="item-image position-relative">
+                                <img width="300"
+                                    src='./images/2.jpeg' />
+                            </div>
+                            <div class="item-text">
+                                <a href="/#" class="text-decoration-none text-danger">
+                                    <h5>President Aliyev: All regional countries will benefit from opening of Zangazur
+                                        Corridor</h5>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="item">
+                            <div class="item-image position-relative">
+                                <img width="300"
+                                    src='./images/6.jpeg' />
+                            </div>
+                            <div class="item-text">
+                                <a href="/#" class="text-decoration-none text-danger">
+                                    <h5>Azerbaijani army’s positions subjected to fire – Defense Ministry</h5>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>
